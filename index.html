@@ -13,11 +13,21 @@
             <li><a href="./advanced.html">Advanced Search</a></li>
         </ul>
     </nav>
-    <h1>Google</h1>
-    <p>home</p>
-    <form action="https://www.google.com/search" id="google--form">
-        <input type="text" name="q">
-        <input type="submit" value="Google Search">
+    <div id="cs50oogle">
+            <font style="color: black;">CS50</font>
+            <font style="color: red;">o</font>
+            <font style="color: gold;">o</font>
+            <font style="color: blue;">g</font>
+            <font style="color: green;">l</font>
+            <font style="color: red;">e</font>
+            <p>home</p>
+    </div>
+    <form action="https://www.google.com/search" id="google--form" autocomplete="off">
+        <input id="input" type="text" name="q">
+        <div class="buttons">
+            <input id="btn-submit" type="submit" value="Google Search">
+            <button id="btn-submit" value="I'm feeling lucky">I'm feeling lucky</button>
+        </div>
     </form>
 </body>
 </html>

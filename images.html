@@ -1,12 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8"
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Search</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    Images
+    <nav>
+        <ul>
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./advanced.html">Advanced Search</a></li>
+        </ul>
+    </nav>
+    <div id="cs50oogle">
+            <font style="color: black;">CS50</font>
+            <font style="color: red;">o</font>
+            <font style="color: gold;">o</font>
+            <font style="color: blue;">g</font>
+            <font style="color: green;">l</font>
+            <font style="color: red;">e</font>
+            <p>images</p>
+    </div>
+    <form action="https://google.com/search">
+        <input type="text" name="q" class="searchbar">
+        <input hidden="true" name="tbm" value="isch">
+        <div class="buttons">
+            <input id="btn-submit" type="submit" value="Google Search">
+            <button id="btn-submit" value="I'm feeling lucky">I'm feeling lucky</button>
+        </div>
+    </form>
 </body>
 </html>

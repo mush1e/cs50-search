@@ -1,23 +1,128 @@
-nav {
+@import url("http://fonts.cdnfonts.com/css/product-sans");
+body {
+  font-family: "Product Sans", sans-serif;
+}
+body nav {
   width: auto;
   display: flex;
 }
-nav ul {
+body nav ul {
   list-style-type: none;
   display: flex;
   width: 100%;
   justify-content: end;
 }
-nav ul li {
+body nav ul li {
   list-style: none;
   padding: 10px;
 }
-nav ul li a {
+body nav ul li a {
   display: block;
   color: black;
   text-align: center;
   text-decoration: none;
 }
-nav ul li a:hover {
+body nav ul li a:hover {
   text-decoration: underline;
+}
+body #cs50oogle {
+  font-size: 0px;
+  font-weight: 700;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 25vh;
+  margin: 40px;
+}
+body #cs50oogle font {
+  font-size: 70px;
+  opacity: 80%;
+}
+body #cs50oogle p {
+  display: flex;
+  justify-content: center;
+  font-size: small;
+  margin: 10px;
+  align-items: flex-end;
+}
+body input[type=text] {
+  border-radius: 20px;
+  width: 573px;
+  height: 24px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid lightgrey;
+  padding: 10px;
+}
+body input[type=text]:hover {
+  border: 1px solid #b2b2b2;
+}
+body input[type=text]:focus {
+  border: 1px solid #4285f4;
+  -webkit-appearance: none;
+}
+body .buttons {
+  padding: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+body input[type=submit] {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2f2f2;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  height: 36px;
+  margin: 0px 4px;
+  padding: 0px 16px;
+  border: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #f2f2f2;
+  margin: 10px;
+}
+body input[type=submit]:hover {
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: rgb(198, 198, 198);
+  color: rgb(34, 34, 34);
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+}
+body input[type=submit]:focus {
+  border: 1px solid #4285f4;
+  -webkit-appearance: none;
+}
+body button {
+  background-color: #f2f2f2;
+  color: #757575;
+  font-size: 13px;
+  font-weight: bold;
+  height: 36px;
+  margin: 0px 4px;
+  padding: 0px 16px;
+  border: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: #f2f2f2;
+  margin: 10px;
+}
+body button:hover {
+  border-style: solid;
+  border-radius: 2px;
+  border-width: 1px;
+  border-color: rgb(198, 198, 198);
+  color: rgb(34, 34, 34);
+  background-color: rgb(248, 248, 248);
+  cursor: pointer;
+}
+body button:focus {
+  border: 1px solid #4285f4;
+  -webkit-appearance: none;
 }/*# sourceMappingURL=style.css.map */
